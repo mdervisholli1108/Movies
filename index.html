@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <title>Document</title>
+</head>
+
+<body> 
+
+    <div class="wrapper">
+        <input id="title" type="text" class="input" placeholder="What are you looking for?">
+        <div onclick="getMovie()" class="searchbtn"><i class="fas fa-search"></i></div>
+    </div>
+
+    <h1 id="h1title">MOVIES</h1>
+    <br>
+    <div id="photos" class="col-lg-2" style="padding-left: 100px;">
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <h1 id="year"></h1>
+            <span class="close">&times;</span>
+            <div>
+                <img id="modalImg" src="" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
